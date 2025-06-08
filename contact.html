@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - ConvertPro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Loading Animation -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <div class="loader-text">ConvertPro</div>
+        </div>
+    </div>
+
+    <!-- Dark Mode Toggle -->
+    <div class="btn-dark-mode" id="darkModeToggle">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">ConvertPro</a>
+
+            <button class="mobile-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="features.html" class="nav-link">Features</a></li>
+                <li class="nav-item"><a href="index.html#testimonials" class="nav-link">Testimonials</a></li>
+                <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
+                <li class="nav-item"><a href="pricing.html" class="btn btn-primary">Get Started</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header bg-gradient">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Have questions? We're here to help you succeed</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="bg-blob">
+        <div class="container">
+            <div class="section-title text-center scale-in">
+                <h2>Get In Touch</h2>
+                <p>We'd love to hear from you</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info animated delay-1">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email Us</h3>
+                        <p>For general inquiries: <br><strong>hello@convertpro.com</strong></p>
+                        <p>For support questions: <br><strong>support@convertpro.com</strong></p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h3>Call Us</h3>
+                        <p>Monday to Friday, 9am-5pm ET: <br><strong>+1 (555) 123-4567</strong></p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Visit Us</h3>
+                        <p>123 Conversion Street<br>Suite 456<br>San Francisco, CA 94103</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3>Live Chat</h3>
+                        <p>Available Monday to Friday<br>9am-5pm ET<br><a href="#" class="contact-link">Start a Chat</a></p>
+                    </div>
+                </div>
+                
+                <div class="contact-form animated delay-2">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject">
+                                <option>General Inquiry</option>
+                                <option>Technical Support</option>
+                                <option>Billing Question</option>
+                                <option>Partnership Opportunity</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary form-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="bg-grey">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to common questions</p>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <h3>How quickly can I expect a response?</h3>
+                    <p>We aim to respond to all inquiries within 24 hours during business days. Support tickets from Premium and Extended plan customers receive priority response times.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>What information should I include in my support request?</h3>
+                    <p>To help us assist you more efficiently, please include your plan type, a detailed description of the issue, any error messages you've received, and steps to reproduce the problem if applicable.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Do you offer custom development services?</h3>
+                    <p>Yes, we offer custom development services for clients who need specific modifications or additional features beyond our standard template. Please contact us for a quote.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section>
+        <div class="map-container">
+            <img src="https://cdn.pixabay.com/photo/2016/08/18/22/26/google-maps-1604178_1280.png" alt="Office Location Map" class="map-image">
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-gradient cta">
+        <div class="container">
+            <h2>Ready to Get Started?</h2>
+            <p>Join thousands of satisfied customers who have already improved their conversion rates with our templates.</p>
+            <a href="pricing.html" class="btn btn-white">View Pricing Plans</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a href="index.html" class="footer-logo">ConvertPro</a>
+                    <p>A conversion-focused landing page template built for startups and SaaS companies looking to maximize their marketing ROI and turn visitors into paying customers.</p>
+                    <p class="footer-copyright">© 2025 ConvertPro | All Rights Reserved</p>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Product</h4>
+                    <ul class="footer-links">
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="documentation.html">Documentation</a></li>
+                        <li><a href="updates.html">Updates</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="support.html">Support</a></li>
+                        <li><a href="community.html">Community</a></li>
+                        <li><a href="tutorials.html">Tutorials</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="partners.html">Partners</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="terms.html">Terms</a></li>
+                        <li><a href="privacy.html">Privacy</a></li>
+                        <li><a href="cookies.html">Cookies</a></li>
+                        <li><a href="licenses.html">Licenses</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

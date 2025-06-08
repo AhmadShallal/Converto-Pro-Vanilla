@@ -1,0 +1,313 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Converto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Loading Animation -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <div class="loader-text">Converto</div>
+        </div>
+    </div>
+
+    <!-- Dark Mode Toggle -->
+    <div class="btn-dark-mode" id="darkModeToggle">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">Converto</a>
+
+            <button class="mobile-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="features.html" class="nav-link">Features</a></li>
+                <li class="nav-item"><a href="index.html#testimonials" class="nav-link">Testimonials</a></li>
+                <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
+                <li class="nav-item"><a href="pricing.html" class="btn btn-primary">Get Started</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header bg-gradient">
+        <div class="container">
+            <h1>Our Blog</h1>
+            <p>Insights, tips, and strategies to optimize your landing pages and boost conversions</p>
+        </div>
+    </section>
+
+    <!-- Featured Post -->
+    <section class="bg-blob">
+        <div class="container">
+            <div class="section-title text-center scale-in">
+                <h2>Latest from the Blog</h2>
+                <p>Fresh insights to help you succeed</p>
+            </div>
+            
+            <div class="featured-post animated">
+                <div class="featured-post-image">
+                    <div class="featured-tag">Featured</div>
+                    <img src="https://cdn.pixabay.com/photo/2018/09/11/21/13/iphone-3670655_1280.png" alt="The Psychology of High-Converting Landing Pages">
+                </div>
+                <div class="featured-post-content">
+                    <div class="post-meta">
+                        <span class="post-category">Conversion Strategy</span>
+                        <span class="post-date">May 10, 2025</span>
+                    </div>
+                    <h3>The Psychology of High-Converting Landing Pages: 7 Principles You Need to Know</h3>
+                    <p>Understanding the psychological triggers behind user decisions can transform your landing page effectiveness. In this in-depth guide, we explore the seven key psychological principles that drive conversions and how to implement them in your designs.</p>
+                    <a href="#" class="btn btn-primary">Read Article</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Grid -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="blog-container">
+                <div class="blog-main">
+                    <div class="blog-post-grid">
+                        <article class="blog-post animated delay-1">
+                            <div class="blog-post-image">
+                                <img src="https://cdn.pixabay.com/photo/2015/05/28/14/53/ux-788002_1280.jpg" alt="Color Psychology in Landing Pages">
+                                <div class="post-category-tag">Design</div>
+                            </div>
+                            <div class="blog-post-content">
+                                <h3><a href="#">Color Psychology in Landing Pages: How to Choose the Right Palette</a></h3>
+                                <div class="post-meta">
+                                    <span class="post-date"><i class="fas fa-calendar-alt"></i> April 28, 2025</span>
+                                    <span class="post-read-time"><i class="fas fa-clock"></i> 8 min read</span>
+                                </div>
+                                <p>Learn how color choices impact user psychology and conversion rates, with practical examples and color palette recommendations for different industries and target audiences.</p>
+                                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+                        
+                        <article class="blog-post animated delay-2">
+                            <div class="blog-post-image">
+                                <img src="https://cdn.pixabay.com/photo/2021/05/11/17/21/charts-6246450_1280.png" alt="A/B Testing">
+                                <div class="post-category-tag">Optimization</div>
+                            </div>
+                            <div class="blog-post-content">
+                                <h3><a href="#">A/B Testing for Beginners: Start Optimizing Your Landing Pages Today</a></h3>
+                                <div class="post-meta">
+                                    <span class="post-date"><i class="fas fa-calendar-alt"></i> April 21, 2025</span>
+                                    <span class="post-read-time"><i class="fas fa-clock"></i> 12 min read</span>
+                                </div>
+                                <p>Discover how to set up effective A/B tests, identify what elements to test first, and interpret results to continuously improve your landing page performance.</p>
+                                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+                        
+                        <article class="blog-post animated delay-3">
+                            <div class="blog-post-image">
+                                <img src="https://cdn.pixabay.com/photo/2017/08/22/00/27/car-dashboard-2667434_1280.jpg" alt="Landing Page Performance">
+                                <div class="post-category-tag">Performance</div>
+                            </div>
+                            <div class="blog-post-content">
+                                <h3><a href="#">Speed Matters: How Page Load Time Affects Conversion Rates</a></h3>
+                                <div class="post-meta">
+                                    <span class="post-date"><i class="fas fa-calendar-alt"></i> April 15, 2025</span>
+                                    <span class="post-read-time"><i class="fas fa-clock"></i> 7 min read</span>
+                                </div>
+                                <p>We analyze real-world data showing the direct relationship between page load speed and conversion rates, with practical optimization techniques to speed up your landing pages.</p>
+                                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+                        
+                        <article class="blog-post animated delay-1">
+                            <div class="blog-post-image">
+                                <img src="https://cdn.pixabay.com/photo/2016/11/29/09/38/adult-1868750_1280.jpg" alt="Mobile Optimization">
+                                <div class="post-category-tag">Mobile</div>
+                            </div>
+                            <div class="blog-post-content">
+                                <h3><a href="#">Mobile-First Landing Pages: Optimizing for the Small Screen</a></h3>
+                                <div class="post-meta">
+                                    <span class="post-date"><i class="fas fa-calendar-alt"></i> April 8, 2025</span>
+                                    <span class="post-read-time"><i class="fas fa-clock"></i> 10 min read</span>
+                                </div>
+                                <p>With over 60% of web traffic coming from mobile devices, optimizing for mobile is no longer optional. Learn the essential strategies for creating mobile-first landing pages that convert.</p>
+                                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+                        
+                        <article class="blog-post animated delay-2">
+                            <div class="blog-post-image">
+                                <img src="https://cdn.pixabay.com/photo/2016/01/14/20/14/desk-1140699_1280.jpg" alt="Call-to-Actions">
+                                <div class="post-category-tag">Conversions</div>
+                            </div>
+                            <div class="blog-post-content">
+                                <h3><a href="#">The Anatomy of a Perfect Call-to-Action: Boost Click-Through Rates</a></h3>
+                                <div class="post-meta">
+                                    <span class="post-date"><i class="fas fa-calendar-alt"></i> April 2, 2025</span>
+                                    <span class="post-read-time"><i class="fas fa-clock"></i> 9 min read</span>
+                                </div>
+                                <p>Explore the key elements of high-converting CTAs, from button design and placement to messaging and psychological triggers that compel users to click.</p>
+                                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+                        
+                        <article class="blog-post animated delay-3">
+                            <div class="blog-post-image">
+                                <img src="https://cdn.pixabay.com/photo/2016/03/11/02/08/speedometer-1249610_1280.jpg" alt="Analytics Setup">
+                                <div class="post-category-tag">Analytics</div>
+                            </div>
+                            <div class="blog-post-content">
+                                <h3><a href="#">Setting Up Conversion Tracking: The Complete Guide</a></h3>
+                                <div class="post-meta">
+                                    <span class="post-date"><i class="fas fa-calendar-alt"></i> March 25, 2025</span>
+                                    <span class="post-read-time"><i class="fas fa-clock"></i> 15 min read</span>
+                                </div>
+                                <p>Learn how to properly set up conversion tracking for your landing pages using Google Analytics, Facebook Pixel, and other popular analytics tools to measure your success.</p>
+                                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                    
+                    <div class="pagination animated">
+                        <a href="#" class="page-link active">1</a>
+                        <a href="#" class="page-link">2</a>
+                        <a href="#" class="page-link">3</a>
+                        <a href="#" class="page-link next"><i class="fas fa-angle-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="blog-sidebar animated delay-2">
+                    <div class="sidebar-widget">
+                        <h3>Categories</h3>
+                        <ul class="category-list">
+                            <li><a href="#">Conversion Strategy <span>(12)</span></a></li>
+                            <li><a href="#">Design <span>(8)</span></a></li>
+                            <li><a href="#">Analytics <span>(7)</span></a></li>
+                            <li><a href="#">Mobile Optimization <span>(6)</span></a></li>
+                            <li><a href="#">A/B Testing <span>(5)</span></a></li>
+                            <li><a href="#">Performance <span>(4)</span></a></li>
+                            <li><a href="#">Case Studies <span>(10)</span></a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="sidebar-widget">
+                        <h3>Popular Posts</h3>
+                        <div class="popular-posts">
+                            <div class="popular-post">
+                                <div class="popular-post-image">
+                                    <img src="https://cdn.pixabay.com/photo/2018/09/11/21/13/iphone-3670655_1280.png" alt="Popular Post">
+                                </div>
+                                <div class="popular-post-content">
+                                    <h4><a href="#">The Psychology of High-Converting Landing Pages</a></h4>
+                                    <span class="popular-post-date">May 10, 2025</span>
+                                </div>
+                            </div>
+                            <div class="popular-post">
+                                <div class="popular-post-image">
+                                    <img src="https://cdn.pixabay.com/photo/2016/03/11/02/08/speedometer-1249610_1280.jpg" alt="Popular Post">
+                                </div>
+                                <div class="popular-post-content">
+                                    <h4><a href="#">Setting Up Conversion Tracking: The Complete Guide</a></h4>
+                                    <span class="popular-post-date">March 25, 2025</span>
+                                </div>
+                            </div>
+                            <div class="popular-post">
+                                <div class="popular-post-image">
+                                    <img src="https://cdn.pixabay.com/photo/2015/05/28/14/53/ux-788002_1280.jpg" alt="Popular Post">
+                                </div>
+                                <div class="popular-post-content">
+                                    <h4><a href="#">Color Psychology in Landing Pages</a></h4>
+                                    <span class="popular-post-date">April 28, 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar-widget">
+                        <h3>Subscribe</h3>
+                        <div class="sidebar-subscribe">
+                            <p>Get the latest articles and resources straight to your inbox</p>
+                            <form class="subscribe-form">
+                                <input type="email" placeholder="Your email address" required>
+                                <button type="submit" class="btn btn-primary">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-gradient cta">
+        <div class="container">
+            <h2>Ready to Create High-Converting Landing Pages?</h2>
+            <p>Apply the strategies you've learned and start building landing pages that convert visitors into customers.</p>
+            <a href="pricing.html" class="btn btn-white">Get Started Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a href="index.html" class="footer-logo">Converto</a>
+                    <p>A conversion-focused landing page template built for startups and SaaS companies looking to maximize their marketing ROI and turn visitors into paying customers.</p>
+                    <p class="footer-copyright">© 2025 Converto | All Rights Reserved</p>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Product</h4>
+                    <ul class="footer-links">
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="documentation.html">Documentation</a></li>
+                        <li><a href="updates.html">Updates</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="support.html">Support</a></li>
+                        <li><a href="community.html">Community</a></li>
+                        <li><a href="tutorials.html">Tutorials</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="partners.html">Partners</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="terms.html">Terms</a></li>
+                        <li><a href="privacy.html">Privacy</a></li>
+                        <li><a href="cookies.html">Cookies</a></li>
+                        <li><a href="licenses.html">Licenses</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
